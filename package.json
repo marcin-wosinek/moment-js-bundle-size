@@ -4,7 +4,9 @@
   "description": "Simple repository for moment.js benchmark",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --mode=production",
+    "esbuild": "esbuild src/index.js --outfile=dist/main.js --bundle --minify"
   },
   "repository": {
     "type": "git",
